@@ -129,7 +129,7 @@
 -(NSLayoutConstraint*) constraintCenterYToSuperviewWithPadding:(CGFloat)padding
 {
     assert(self.superview!=nil);
-    return [self constraintCenterYToView:self.superview withPadding:0.0f];
+    return [self constraintCenterYToView:self.superview withPadding:padding];
 }
 
 -(NSLayoutConstraint*) constraintCenterYToView:(UIView*)view
